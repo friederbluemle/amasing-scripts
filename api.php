@@ -3,7 +3,13 @@ require_once 'global.php';
 
 $method = isset($_REQUEST['method']) ? $_REQUEST['method'] : '';
 if (!empty($method) && !defined('NO_API_AUTO_EXECUTE')) {
-	new API($method);
+    if ($method === "getMock") {
+        header('Content-type: application/json');
+        $file = isset($_REQUEST['file']) ? $_REQUEST['file'] : '';
+        echo file_get_contents("mock/".$file);
+    } else {
+        new API($method);
+    }
 }
 if(Config::isLoggerEnabled())
 {
