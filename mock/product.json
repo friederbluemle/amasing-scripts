@@ -1,4 +1,95 @@
 {
     "status":"ok",
-    "details": {}
+    "details": {
+        "id": 1,
+        "title": "Sloggers Women's Rain and Garden Shoes - Made in the USA",
+        "author": "Sloggers",
+        "description_lines": [
+            "Made in the USA from 100-percent recyclable material",
+            "Maximum comfort; includes our exclusive \"All-Day-Comfort-Insole\" thickness: 7mm heel/5mm ball",
+            "Fit info: 1/2 sizes order up and for a perfect fit use our exclusive 1/2 size insole - search style 330BK",
+            "100-Percent waterproof with a Deep lug Sole",
+            "100-Percent Recyclable"
+        ],
+        "status": "IN Stock",
+        "price": "$28.62",
+        "main_image": {
+            "id": "zoom_03",
+            "src": "images/big-img.jpg",
+            "data_zoom_image": "images/shoe-01-big.jpg"
+        },
+        "gallery_items": [
+            {
+                "id": "img_01",
+                "src": "images/shoe-01.jpg",
+                "data_image": "images/big-img.jpg",
+                "data_zoom_image": "images/shoe-01-big.jpg"
+            },
+            {
+                "id": "img_01",
+                "src": "images/shoe-02.jpg",
+                "data_image": "images/big-img1.jpg",
+                "data_zoom_image": "images/shoe-01-big.jpg"
+            },
+            {
+                "id": "img_01",
+                "src": "images/shoe-01.jpg",
+                "data_image": "images/big-img.jpg",
+                "data_zoom_image": "images/shoe-01-big.jpg"
+            },
+            {
+                "id": "img_01",
+                "src": "images/shoe-02.jpg",
+                "data_image": "images/big-img1.jpg",
+                "data_zoom_image": "images/shoe-01-big.jpg"
+            },
+            {
+                "id": "img_01",
+                "src": "images/shoe-01.jpg",
+                "data_image": "images/big-img.jpg",
+                "data_zoom_image": "images/shoe-01-big.jpg"
+            }
+        ],
+        "ratings": {
+            "total": "1.234"
+        },
+        "variants": [
+            "Size 6",
+            "Size 7",
+            "Size 8",
+            "Size 9"
+        ],
+        "similar_products": [
+            {
+                "id": 1,
+                "image": "images/other-01.png",
+                "title": "Fiskars Garden Bucket Caddy",
+                "price": "$6.98"
+            },
+            {
+                "id": 2,
+                "image": "images/other-02.png",
+                "title": "Fiskars Garden Bucket Caddy",
+                "price": "$6.98"
+            },
+            {
+                "id": 3,
+                "image": "images/other-03.png",
+                "title": "Fiskars 3 Piece Softouch Garden...",
+                "price": "$6.98"
+            },
+            {
+                "id": 4,
+                "image": "images/other-04.png",
+                "title": "Sloggers - Women's  Wide Brim...",
+                "price": "$17.77"
+            },
+            {
+                "id": 5,
+                "image": "images/other-05.png",
+                "title": "Womanswork 285 Paisley Floppy...",
+                "price": "$19.99"
+            }
+        ]
+    }
 }
